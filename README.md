@@ -101,7 +101,7 @@ This "CameraWebServer"  provides a webpage that displays a live feed from the ca
 ![enter image description here](https://github.com/bbas121/Wifi_remote_control_carr/blob/main/Images/appInventor.jpg?raw=true)
 The app was created using MIT App Inventor, which allows for app layout design through a user-friendly drag-and-drop interface and programming via block-based coding. Upon initialization, the app requires the user to input the IP addresses of both the ESP32 and the ESP32 CAM. This leads the user to the main control page of the car. For displaying the video feed, a web component is integrated that shows the live stream from the camera. Control commands are executed through button presses in the app, each sending a specific web request (corresponding to the pressed button's function) to the ESP32's IP address. Additionally, releasing any of the steering buttons triggers a stop request.
 [  
-URL to the image of the full code blocks.](https://github.com/bbas121/Wifi_remote_control_carr/blob/main/Images/blocks.png?raw=true)
+URL to the image of the full code blocks.](https://raw.githubusercontent.com/bbas121/Wifi_remote_control_carr/main/Images/blocks.png)
 
     
 
