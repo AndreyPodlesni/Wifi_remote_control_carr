@@ -18,9 +18,9 @@ This project was an upgrade to a project I did as a hobby back in 2017 when I wa
 ## Video
 [![enter image description here](https://i.ibb.co/x1fTmcF/Thumbnail.jpg)](https://youtu.be/eb2qzxag-yg)
 ## Pictures
-![enter image description here](https://i.ibb.co/VLsnYt3/1.jpg)
-![enter image description here](https://i.ibb.co/jGzbtSB/2.jpg)
-![enter image description here](https://i.ibb.co/K6S8qJZ/3.jpg)
+![enter image description here](https://github.com/bbas121/Wifi_remote_control_carr/blob/main/Images/1.jpg?raw=true)
+![enter image description here](https://github.com/bbas121/Wifi_remote_control_carr/blob/main/Images/2.jpg?raw=true)
+![enter image description here](https://github.com/bbas121/Wifi_remote_control_carr/blob/main/Images/3.jpg?raw=true)
 ## Hardware
 
  - ESP32 WROOM-32
@@ -34,7 +34,7 @@ This project was an upgrade to a project I did as a hobby back in 2017 when I wa
 -  4WD Robot Smart Car Chassis
 - ESP32 CAM
 ## Scehmatics
-![enter image description here](https://i.ibb.co/9wZCZh3/Schematics.jpg)
+![enter image description here](https://github.com/bbas121/Wifi_remote_control_carr/blob/main/Images/Schematics.jpg?raw=true)
   
 1.  **Motor Control Pins:**
     -   GPIO 18 is connected to `BIN1` on the  Motor Driver.
@@ -56,7 +56,7 @@ This project was an upgrade to a project I did as a hobby back in 2017 when I wa
      
 
 ## Android RC Car Controller App"
-![enter image description here](https://i.ibb.co/bBtj6Z0/APPedited.jpg)
+![enter image description here](https://github.com/bbas121/Wifi_remote_control_carr/blob/main/Images/APPedited.jpg?raw=true)
 
  - This application was developed using the MIT App Inventor platform.
  - In the video stream windows it is supposed to show the video stream because I disassembled this project to use the microcontrollers for another project i cannot show it in the screenshot but you can see the app in action in the video
@@ -98,10 +98,10 @@ This "CameraWebServer"  provides a webpage that displays a live feed from the ca
 
 
 ## Android App Development
-![enter image description here](https://i.ibb.co/Nx8NN3b/app-Inventor.jpg)
+![enter image description here](https://github.com/bbas121/Wifi_remote_control_carr/blob/main/Images/appInventor.jpg?raw=true)
 The app was created using MIT App Inventor, which allows for app layout design through a user-friendly drag-and-drop interface and programming via block-based coding. Upon initialization, the app requires the user to input the IP addresses of both the ESP32 and the ESP32 CAM. This leads the user to the main control page of the car. For displaying the video feed, a web component is integrated that shows the live stream from the camera. Control commands are executed through button presses in the app, each sending a specific web request (corresponding to the pressed button's function) to the ESP32's IP address. Additionally, releasing any of the steering buttons triggers a stop request.
 [  
-URL to the image of the full code blocks.](https://i.ibb.co/Jpmv2RR/blocks.png)
+URL to the image of the full code blocks.](https://github.com/bbas121/Wifi_remote_control_carr/blob/main/Images/blocks.png?raw=true)
 
     
 
