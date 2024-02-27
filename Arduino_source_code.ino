@@ -282,7 +282,7 @@ void loop() {
   if (millis() - lastPrintTime >= 1000) {
     Serial.print("Distance: ");
     Serial.println(distance);
-    server.send(200, "text/plain", "distance=" + String(distance)); // convert speed to a String
+    server.send(200, "text/plain", "distance=" + String(distance)); 
     lastPrintTime = millis();
   }
 }
